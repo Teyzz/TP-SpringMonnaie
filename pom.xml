@@ -105,12 +105,14 @@
 				<version>0.8.5</version>
 				<executions>
 					<execution>
+						<id>report</id>
 						<phase>process-test-classes</phase>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
 					</execution>
 					<execution>
+						<id>prepare</id>
 						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
